@@ -20,8 +20,8 @@ import com.example.grandvns.ui.theme.GrandvnsTheme
 
 class MainActivity : ComponentActivity() {
 
-     val viewModel by viewModels<MainViewModel>()
-     val AgentViewModel by viewModels<AgentProfileViewModel>()
+     private val viewModel by viewModels<MainViewModel>()
+     private val AgentViewModel by viewModels<AgentProfileViewModel>()
 
                     @RequiresApi(Build.VERSION_CODES.TIRAMISU)
                     override fun onCreate(savedInstanceState: Bundle?) {

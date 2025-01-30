@@ -41,7 +41,7 @@ class SimpleCounterWidgetReceiver: GlanceAppWidgetReceiver() {
 object CounterWidget: GlanceAppWidget() {
 
 
-    val countKey = intPreferencesKey("count")
+    private val countKey = intPreferencesKey("count")
 
     @Composable
     override fun Content() {

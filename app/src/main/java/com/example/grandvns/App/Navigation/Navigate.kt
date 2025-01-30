@@ -18,7 +18,6 @@ import com.example.grandvns.App.App_UI.MainViewModel
 
 
 @SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun navigate(
     paddingValues: PaddingValues,
